@@ -1,5 +1,5 @@
+import 'package:alegn_pay/screen/introduction/introduction.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_starter/screen/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,8 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: 'Gordita',
       ),
-      home: const HomeScreen(),
+      home: const IntroductionScreen(),
     );
   }
 }
