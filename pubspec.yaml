@@ -1,4 +1,4 @@
-name: flutter_starter
+name: alegn_pay
 description: A new Flutter project.
 
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -11,10 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    
   cupertino_icons: ^1.0.2
-  equatable: ^2.0.5
-  flutter_bloc: ^8.1.1
   gap: ^2.0.0
   hexcolor: ^2.0.7
 
